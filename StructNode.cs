@@ -39,6 +39,22 @@ else
     r - > next = n;
     r = n
 }
+public static void dequeue()
+{
+    int val = -1;
+    struct Node *IntPtr;
+if(f == Null)
+{
+    Console.WriteLine("Queue is Empty");
+    else
+    {
+        f = false - > next;
+        Val = Ptr - > data;
+        free(ptr);
+        retun val
+    }
+}
+}
 
 
 
