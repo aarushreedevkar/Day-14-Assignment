@@ -4,7 +4,9 @@
     {
         public static void Main(string[] args)
         {
-            Struct_Node.push(70,30,56);
+            int element = pop(top);
+            StructNode.push(70,30,56);
+
         }
     }
 }

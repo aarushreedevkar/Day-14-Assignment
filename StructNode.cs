@@ -22,7 +22,7 @@ namespace StackAndQueue
             }
             
             
-            public static  void push (Struct_Node * top,int x)
+            public static  void pop (Struct_Node * top,int x)
         {
           struct Node *top = null;
             top = push(top,70);
@@ -49,19 +49,19 @@ linkedListTraversal(top);
 
     }
     
-    Struct Node * push( struct Node * top ,int x){
-    if (isFull(top))
+    Struct Node * pop( struct Node * top ,int x){
+    if (isEmpty(top))
     {
-        Console.WriteLine("Stack Overflow");
+        Console.WriteLine("Stack underflow");
     }
     else
     {
-        struct Node * n= (struct Node * )malloc ( size of (struct Node));
-         n->data = x;
-         n->Next = top;
+        struct Node * n= top;
+           int x = n->data
+           top   = n->Next ;  
 
-          top = n;
-          return top
+          free (n);
+          return x;
 
 }
 }
