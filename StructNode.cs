@@ -10,69 +10,48 @@ namespace StackAndQueue
     {
         int data;
         struct Node * Next;
-           
-         void linkedList Traversal(struct Node * ptr) {
+           void linkedList Traversal(struct Node * ptr) {
            while (Ptr ! Null ) {
             console.writeline("Element: 'ptr data);
-            ptr = IntPtr - > Next;
+            ptr = Ptr - > Next;
             }
-}
-;            
-            
-            }
-            
-            
-            public static  void pop (Struct_Node * top,int x)
+    interface Main()
+    struct Node * f = Null;
+    struct Node * r = Null;
+         return
+ 
+public static void enqueue( struct Node * f,struct Node * r,int val){
+        if(n == Null)
         {
-          struct Node *top = null;
-            top = push(top,70);
-            top = push(top, 30);
-            top = push(top, 56);
-linkedListTraversal(top);
-
+        console.writeline(Queue is Full);
         }
-        int isEmpty(Struct Node * top)
-    {
-        if top == Null{
-            return 1;
-        }
-        else
-        {
-            return 0;
-        }
-        int isFull(struct Node * top){
-        Struct Node * p =(struct Node *)malloc(size of (struct Node))
-        if(n == Null){
-        return 1;
-        else {
-        retuurn 0;
-
-    }
-    
-    Struct Node * pop( struct Node * top ,int x){
-    if (isEmpty(top))
-    {
-        Console.WriteLine("Stack underflow");
-    }
     else
-    {
-        struct Node * n= top;
-           int x = n->data
-           top   = n->Next ;  
+{
+    n - > data = ValueTask;
+    n - > next = Null;
+}
+if ( f == Null)
+{
+    f = r = Null;
+}
+else
+{
+    r - > next = n;
+    r = n
+}
 
-          free (n);
-          return x;
+
 
 }
+   
+
+
+
+
+
 }
 
 
-
-
-
-
-
-
-
-    }
-}
+            
+            
+       
